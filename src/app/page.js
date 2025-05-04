@@ -12,8 +12,8 @@ export default function Home() {
       <div className="font-bold text-4xl text-center">
         Anonymous mock interviews with engineers from Amazon, Google, Facebook and other top companies
       </div>
-        <div className="text-center mt-5 max-w-[65%] mx-auto font-semibold">
-          Get better at coding interviews and system design problem, and get detaied feedback on exactly what you need to work on.
+        <div className="text-center text-[12px] sm:text-sm mt-5 w-full p-4 md:max-w-[65%] mx-auto font-semibold">
+          Get better at coding interviews and system design problem, and get detailed feedback on exactly what you need to work on.
         </div>
       <div className="flex flex-col mt-4 sm:mt-8 md:mt-12 justify-center w-full items-center">
         <div className="flex gap-3 items-center rounded p-2 text-white font-bold max-w-[230px] bg-[#5757e2]">
