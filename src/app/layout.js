@@ -1,15 +1,14 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/component/header";
+import { Bebas_Neue } from 'next/font/google';
+import DefaultView from "@/component/defaultLayout";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const bebas = Bebas_Neue({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-bebas',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -20,8 +19,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${bebas.variable} antialiased`}
       >
+        <Header/>
         {children}
       </body>
     </html>
