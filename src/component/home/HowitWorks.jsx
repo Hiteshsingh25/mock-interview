@@ -3,7 +3,7 @@ import DefaultView from '../defaultLayout'
 
 function HowitWorks() {
   return (
-    <div className='bg-slate-800 w-full text-white my-16 p-3'>
+    <div className='bg-slate-800 sm:block hidden w-full text-white my-16 p-3'>
         <DefaultView>
         <div className='text-center font-bold text-lg'>
             How it works
